@@ -113,6 +113,15 @@ def train_knn():
         accuracy = np.mean(y_pred == y_val)
         print(f"Validation accuracy: {accuracy:.4f}")
 
+        # Confusion matrix for more detail
+        num_classes = 10
+        conf = np.zeros((num_classes, num_classes), dtype=int)
+        for true_label, pred_label in zip(y_val, y_pred):
+            conf[true_label, pred_label] += 1
+
+        print("\nConfusion matrix (rows=true, cols=pred):")
+        print(conf)
+
 
 if __name__ == "__main__":
     train_knn()
