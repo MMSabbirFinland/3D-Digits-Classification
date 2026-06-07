@@ -1,5 +1,24 @@
 # 3D Digits Classification
 
+# Project Context
+This repository contains a group project completed as part of the **Pattern Recognition and Machine Learning (PRML)** course at **LUT University**.
+
+# Contributors
+- **Adrian Khalatbari**
+- **Muhammad Monowarul Sabbir**
+- **Moriom Akter**
+
+# My Contributions
+I contributed to:
+- Data exploration and preprocessing  
+- Feature extraction pipeline  
+- Model training and evaluation  
+- Hyperparameter tuning for kNN  
+- Documentation and code organization  
+
+This repository is a personal copy of the group project for portfolio and learning purposes.
+
+
 This project implements a full classification pipeline for recognizing
 hand-written digits (0--9) drawn in the air and recorded as 3D motion
 data. Each digit is stored as a CSV file containing an **N × 3**
