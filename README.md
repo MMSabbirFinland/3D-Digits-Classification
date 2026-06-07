@@ -1,5 +1,10 @@
 # 3D Digits Classification
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+
 # Project Context
 This repository contains a group project completed as part of the **Pattern Recognition and Machine Learning (PRML)** course at **LUT University**.
 
